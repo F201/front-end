@@ -13,7 +13,6 @@ body {
    align-items: center;
 }
 
-
 .register-center {
    min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
    min-height: 90vh; /* These two lines are counted as one :-)       */
@@ -25,6 +24,10 @@ body {
    opacity: .7
 }
 
+.content-opacity {
+   opacity: .85
+}
+
 .panel-shadow{
    -webkit-box-shadow: 3px 6px 58px 2px rgba(0,0,0,0.75);
    -moz-box-shadow: 3px 6px 58px 2px rgba(0,0,0,0.75);
@@ -32,7 +35,7 @@ body {
 }
 
 .borderless {
-   border: 0;
+   border: 0px;
 }
 
 .borderless-radius {
@@ -43,10 +46,18 @@ body {
    margin-top: 1em;
 }
 
-/*
-username
-full name
-email
-avatar
-password
-confirm password
+.border-grid {
+   border: 1px solid #c4c4c4;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+
+.image-grid {
+   width: 100%;
+}
+
+.hover-padding:hover{
+   margin-bottom: 5px;
+}
+
+.
